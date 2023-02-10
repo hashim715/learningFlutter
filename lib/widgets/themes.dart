@@ -20,4 +20,5 @@ class MyTheme {
 
   static String darkBluishColor = "#4634eb";
   static String creamColor = "#F4EBDB";
+  static String newcolor = "#f2f0f0";
 }
