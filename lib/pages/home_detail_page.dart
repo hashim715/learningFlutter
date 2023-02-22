@@ -10,7 +10,9 @@ class HomeDetailPage extends StatelessWidget {
         super(key: key);
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
       backgroundColor: Vx.hexToColor(MyTheme.newcolor),
       bottomNavigationBar: Container(
           color: Colors.white,
@@ -25,8 +27,8 @@ class HomeDetailPage extends StatelessWidget {
                           backgroundColor: MaterialStateProperty.all(
                               Vx.hexToColor(MyTheme.darkBluishColor)),
                           shape: MaterialStateProperty.all(StadiumBorder())),
-                      child: "Buy".text.make())
-                  .wh(100, 50)
+                      child: "Add to Cart".text.make())
+                  .wh(120, 50)
             ],
           )).p32(),
       body: SafeArea(
@@ -62,6 +64,11 @@ class HomeDetailPage extends StatelessWidget {
                               .xl
                               .make(),
                           10.heightBox,
+                          "Dasdgasd sadgasdg asdgasd sadgsadg sadgsad sdgasdg sadgsadg asdgasdg asdgasdgasdg"
+                              .text
+                              .textStyle(context.captionStyle)
+                              .make()
+                              .p16()
                         ],
                       ).py64(),
                     )))
