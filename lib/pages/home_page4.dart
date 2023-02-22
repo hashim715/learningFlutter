@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mynotes/utils/routes.dart';
 import '../widgets/drawer.dart';
@@ -41,6 +42,13 @@ class _HomePageState extends State<HomePage4> {
         title: Text("Catalog App"),
       ),
       backgroundColor: Vx.hexToColor(MyTheme.creamColor),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.pushNamed(context, MyRoutes.cartRoute);
+        },
+        backgroundColor: Vx.hexToColor(MyTheme.darkBluishColor),
+        child: Icon(CupertinoIcons.cart),
+      ),
       body: SafeArea(
           child: Container(
               padding: Vx.m32,
