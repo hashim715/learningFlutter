@@ -47,7 +47,7 @@ class CatalogItem extends StatelessWidget {
                 .toString()
                 .text
                 .lg
-                .color(Vx.hexToColor(MyTheme.darkBluishColor))
+                .color(context.theme.accentColor)
                 .bold
                 .make(),
             catalog.desc.toString().text.textStyle(context.captionStyle).make(),
@@ -61,7 +61,7 @@ class CatalogItem extends StatelessWidget {
                     onPressed: () {},
                     style: ButtonStyle(
                         backgroundColor: MaterialStateProperty.all(
-                            Vx.hexToColor(MyTheme.darkBluishColor)),
+                            context.theme.buttonColor),
                         shape: MaterialStateProperty.all(StadiumBorder())),
                     child: "Add to Cart".text.make())
               ],
@@ -69,6 +69,6 @@ class CatalogItem extends StatelessWidget {
           ],
         ))
       ],
-    )).white.rounded.square(150).make().py16();
+    )).color(context.cardColor).rounded.square(150).make().py16();
   }
 }

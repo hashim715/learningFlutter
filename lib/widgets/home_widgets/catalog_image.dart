@@ -8,7 +8,13 @@ class CatalogImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-        padding: Vx.m32, child: Image.network(catalog).centered().w24(context));
+    return Image.network(catalog)
+        .box
+        .rounded
+        .p12
+        .color(context.canvasColor)
+        .make()
+        .p16()
+        .w40(context);
   }
 }

@@ -6,7 +6,7 @@
       "desc": "Apple iPhone 12th generation",
       "price": 999,
       "color": "#33505a",
-      "imageUrl": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-pro-2.jpg"
+      "imageUrl": "https://images.unsplash.com/photo-1603791239531-1dda55e194a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXBwbGUlMjBpcGhvbmV8ZW58MHx8MHx8&w=1000&q=80"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "desc": "Google Pixel phone 5th generation",
       "price": 699,
       "color": "#00ac51",
-      "imageUrl": "https://cdn.dxomark.com/wp-content/uploads/medias/post-53930/googlepixel5.jpg"
+      "imageUrl": "https://i.pcmag.com/imagery/reviews/02kEUHHVmgMHAwagk9XQcux-6.fit_lim.size_1050x.jpg"
     },
     {
       "id": 3,
@@ -30,7 +30,7 @@
       "desc": "Apple Macbook air with apple silicon",
       "price": 1099,
       "color": "#e0bfae",
-      "imageUrl": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg"
+      "imageUrl": "https://photographylife.com/wp-content/uploads/2020/12/Apple-MacBook-Air-M1.jpg"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "desc": "Apple Macbook air with apple silicon",
       "price": 1099,
       "color": "#e0bfae",
-      "imageUrl": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg"
+      "imageUrl": "https://photographylife.com/wp-content/uploads/2020/12/Apple-MacBook-Air-M1.jpg"
     }
   ]
 }
