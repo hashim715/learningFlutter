@@ -13,9 +13,9 @@ class HomeDetailPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
       ),
-      backgroundColor: Vx.hexToColor(MyTheme.newcolor),
+      backgroundColor: context.canvasColor,
       bottomNavigationBar: Container(
-          color: Colors.white,
+          color: context.cardColor,
           child: ButtonBar(
             alignment: MainAxisAlignment.spaceAround,
             buttonPadding: EdgeInsets.zero,
@@ -25,7 +25,7 @@ class HomeDetailPage extends StatelessWidget {
                       onPressed: () {},
                       style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all(
-                              Vx.hexToColor(MyTheme.darkBluishColor)),
+                              context.theme.buttonColor),
                           shape: MaterialStateProperty.all(StadiumBorder())),
                       child: "Add to Cart".text.make())
                   .wh(120, 50)
@@ -46,7 +46,7 @@ class HomeDetailPage extends StatelessWidget {
                     edge: VxEdge.TOP,
                     arcType: VxArcType.CONVEY,
                     child: Container(
-                      color: Colors.white,
+                      color: context.cardColor,
                       width: context.screenWidth,
                       child: Column(
                         children: [
@@ -54,7 +54,7 @@ class HomeDetailPage extends StatelessWidget {
                               .toString()
                               .text
                               .xl4
-                              .color(Vx.hexToColor(MyTheme.darkBluishColor))
+                              .color(context.accentColor)
                               .bold
                               .make(),
                           catalog.desc
